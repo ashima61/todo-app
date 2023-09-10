@@ -2,7 +2,8 @@ let designcl = ['work','Personal','Claeaning','Otheres'] //creating class for im
 $(document).ready(function(){
 
     let categorys = document.getElementsByClassName('catesec'); // getting all the class name category 
-        for(let i=0;i<categorys.length;i++){ // looping in the  categorys to find the which categry class belongs and implement according sesign check home.css to get the color of eact section
+        for(let i=0;i<categorys.length;i++){ // looping in the  categorys to find the which categry class belongs and implement according 
+            //sesign check home.css to get the color of eact section
             if(categorys[i].innerHTML.trim()=='Work'){ 
                categorys[i].classList.add(designcl[0])
                categorys[i].classList.add('commonClass')
